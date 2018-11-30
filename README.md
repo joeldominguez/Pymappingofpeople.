@@ -7,7 +7,7 @@ Joel Domínguez Velázquez. (1)  Miguel Enrique Rodríguez Sánchez (2).
 
 (2) Universidad de Colima, Centro de Geomatica, Coquimatlan, Col. mrodriguez5@ucol.mx
 
-## 0.1. 2.- Resumen ##
+## Resumen ##
 
 Con el primordial objetivo de crear un mapa dinámico en el cual nos ubique el estado con un popup (etiqueta) y nos indique la cantidad de personas en estado de
 cualquier tipo de discapacidad en distintos
@@ -22,7 +22,7 @@ With the primary objective of creating a dynamic map in which we locate the stat
 information and its different focuses and
 objectives
 
-## 0.2. 3.- Introducción ##
+## Introducción ##
 
 Dentro de este proyecto se presenta la
 documentación de todo el proceso que se realizó para llevar a cabo el programa en el lenguaje de Python para la localización de personas en estado de discapacidad en cada uno de los estados y a cantidad.
@@ -33,7 +33,7 @@ algunas aginas de internet.
 **Objetivos:** con el primordial objetivo de crear un mapa que nos ubique el estado con un pop-up y nos indique la cantidad de
 personas discapacitadas se realice este código en el lenguaje de Python.
 
-4.- #Desarrollo:#
+## Desarrollo ##
 
 Dentro de este documento se redactara el
 proceso que se llevó acabo para la
@@ -91,7 +91,7 @@ funciones tanto en global como por ventanas
 
  El resultado se generara en archivo del tipo de &quot;HTML&quot; y se podrá visualizar el mencionado mapa con sus respectiva etiqueta e información.
 
-5.- #Manejo de datos#
+##Manejo de datos##
 
 
 ## RESULTADOS: ##
