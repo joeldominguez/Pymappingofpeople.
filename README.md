@@ -100,3 +100,13 @@ Con base a lo planteado en el proceso del proyecto los resultados fueron favorab
 Posteriormente se muestra el resultado de canopy Python el cual nos costó un poco de trabajo modificarlo ya que las variables deban estar un poco más definido ejempló al definir colores debíamos diferenciar la palabra color del comando colors, color=color  y colors sería el comando para los colores de los pop-up (etiquetas)
 
 La imagen anterior se alcanza a percibir que las etiquetas son color verdes es porque el pro-grama no tomo en cuenta la condición que quizás no estaba bien escrita o se desconoce la razón de que si cumplía con una cantidad la etiqueta sería un color y si pasaba seria de otro. De tal manera se prefirió dejar los dos resulta-dos pues siendo positivos se logró la representación de la información la cual tenía como pro-pósito mostrar que  con el mapeo es mucho más fácil entender información, comprenderla y usarla como base en la toma de decisiones respecto a temas en común.
+
+#Referencias Bibliograficas.#
+http://cacheme.org/python-para-ingenieros/
+http://python-para-impacientes.blogspot.mx/2015/05/operaciones-con-archivos-csv.html
+https://www.youtube.com/watch?v=Oj3MZXWXGiU
+https://hipertextual.com/archivo/2014/08/libros-para-aprender-python/
+
+#Poster#
+
+
