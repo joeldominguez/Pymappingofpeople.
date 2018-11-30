@@ -1,0 +1,47 @@
+#primero importmos losmodulos necesario#
+
+import folium
+
+import pandas
+
+#Latitud y Longitud en Grados decimales, dentro de este bucle se obtienen los datos necesarios de archivo scv.
+
+mapMex = folium.Map(location=[23.000,-102.000],zoom\_start = 6)
+
+data = pandas.read\_csv(&#39;data.csv&#39;)
+
+mapMex = folium.Map(location=[23.000, -102.000], tiles=&#39;Mapbox Bright&#39;, zoom\_start = 5)
+
+MAX\_RECORDS = 1000
+
+foliumGrups = folium.FeatureGroup(name = &#39;Entidades&#39;)
+
+#el siguiente bucle es para representar la cantidad de personas deacuerdo a la condicion
+
+for each in data[0:MAX\_RECORDS].iterrows():
+
+    entidad = each[1][&#39;Entidad&#39;]
+
+    cantidadPersonas = str(each[1][&#39;Personas&#39;])
+
+    pop = entidad + &quot;: &quot; + cantidadPersonas #NO SE PUEDE PONER UNA CANTIDAD DE CARACTERES MAYOR A 128
+
+    if(each[1][&#39;Personas&#39;] \&lt;= 100000):
+
+        colorr=&#39;red&#39;
+
+    if (each[1][&#39;Personas&#39;] \&lt;= 50000 and each[1][&#39;Personas&#39;] \&gt;= 200000):
+
+        colorr=&#39;blue&#39;
+
+    if (each[1][&#39;Personas&#39;] \&gt;= 50000):
+
+        colorr=&#39;green&#39;
+
+        folium.Marker(location = [each[1][&#39;LAT&#39;],each[1][&#39;LON&#39;]], popup = cantidadPersonas,icon = folium.Icon(color =colorr)).add\_to(mapMex)
+
+#los popup generados se representaran elelmapa foliu.marker
+
+ folium.Marker([])
+
+    mapMex
