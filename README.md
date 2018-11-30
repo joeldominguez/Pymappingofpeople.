@@ -108,5 +108,5 @@ https://www.youtube.com/watch?v=Oj3MZXWXGiU
 https://hipertextual.com/archivo/2014/08/libros-para-aprender-python/
 
 #Poster#
-
+https://github.com/joeldominguez/Pymappingofpeople./blob/master/POSTER.zip
 
